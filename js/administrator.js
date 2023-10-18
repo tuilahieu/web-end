@@ -1,0 +1,85 @@
+const virtualDatabase = {
+  destinations: [
+    { img: "./images/phuquoc.jpeg", title: "Phu Quoc, Viet Nam", place: 2 },
+    { img: "./images/hanoi.jpeg", title: "Ha Noi, Viet Nam", place: 2 },
+    { img: "./images/thaibinh.jpeg", title: "Thai Binh, Viet Nam", place: 2 },
+    { img: "./images/tamdao.jpeg", title: "Tam Dao, Viet Nam", place: 3 },
+  ],
+  offers: [
+    {
+      img: "https://tourcantho.vn/wp-content/uploads/kinh-nghiem-du-lich-phu-quoc.jpg",
+      tour: "Phu Quoc",
+      cost: 500,
+      title: "Du lịch Phú Quốc",
+      location: "Viet Nam",
+      rate: 5,
+    },
+    {
+      img: "./images/phuquoc.jpeg",
+      tour: "Phu Quoc",
+      cost: 500,
+      title: "Chuyen di day cam xuc",
+      location: "Vinh Thai Lan",
+      rate: 5,
+    },
+    {
+      img: "./images/phuquoc.jpeg",
+      tour: "Phu Quoc",
+      cost: 500,
+      title: "Chuyen di day cam xuc",
+      location: "Vinh Thai Lan",
+      rate: 5,
+    },
+    {
+      img: "./images/phuquoc.jpeg",
+      tour: "Phu Quoc",
+      cost: 500,
+      title: "Chuyen di day cam xuc",
+      location: "Vinh Thai Lan",
+      rate: 5,
+    },
+    {
+      img: "./images/phuquoc.jpeg",
+      tour: "Phu Quoc",
+      cost: 500,
+      title: "Chuyen di day cam xuc",
+      location: "Vinh Thai Lan",
+      rate: 5,
+    },
+    {
+      img: "./images/phuquoc.jpeg",
+      tour: "Phu Quoc",
+      cost: 500,
+      title: "Chuyen di day cam xuc",
+      location: "Vinh Thai Lan",
+      rate: 5,
+    },
+  ],
+  blogs: [
+    {
+      title: "Vịnh Hạ Long - 1 địa điểm bạn nhất định phải tới1",
+      author: "hieu",
+      img: "./images/halong.jpeg",
+    },
+    {
+      title: "Vịnh Hạ Long - 1 địa điểm bạn nhất định phải tới",
+      author: "hieu",
+      img: "./images/halong.jpeg",
+    },
+    {
+      title: "Vịnh Hạ Long - 1 địa điểm bạn nhất định phải tới",
+      author: "hieu",
+      img: "./images/halong.jpeg",
+    },
+    {
+      title: "Vịnh Hạ Long - 1 địa điểm bạn nhất định phải tới",
+      author: "hieu",
+      img: "./images/halong.jpeg",
+    },
+    {
+      title: "Vịnh Hạ Long - 1 địa điểm bạn nhất định phải tới",
+      author: "hieu",
+      img: "./images/halong.jpeg",
+    },
+  ],
+};

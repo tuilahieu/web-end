@@ -1,0 +1,38 @@
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  color: #fff;
+  font-weight: semibold;
+  font-size: 24px;
+}
+
+.square-loading {
+  width: 100px;
+  height: 100px;
+  background-color: #2cccff;
+  border-radius: 8px;
+  animation: flip 1.2s ease-in-out infinite;
+}
+
+@keyframes flip {
+  0% {
+    transform: perspective(200px) rotateX(0) rotateY(0);
+  }
+
+  50% {
+    transform: perspective(200px) rotateX(180deg) rotateY(0);
+  }
+
+  100% {
+    transform: perspective(200px) rotateX(180deg) rotateY(180deg);
+  }
+}
