@@ -142,6 +142,8 @@ window.onload = () => {
   $(".offer-list").slick({
     infinite: true,
     slidesToShow: 4,
+    autoplay: true,
+    autoplaySpeed: 1500,
     arrows: false,
     centerMode: true,
     slidesToScroll: -1,
